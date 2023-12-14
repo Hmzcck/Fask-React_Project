@@ -1,0 +1,36 @@
+.form-container {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+  }
+  
+  .form-label {
+	margin-bottom: 10px;
+  }
+  
+  .form-input {
+	margin-bottom: 10px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  .form-button {
+	padding: 8px 16px; /* Yeterli iç boşluk sağlar */
+	max-width: 120px; /* Maksimum genişlik sınırı */
+	width: 100%; /* Mevcut alanın tamamını kullanır ama max-width'i aşmaz */
+	border: none;
+	background-color: #007bff;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+	font-size: 1rem; /* Yazı boyutunu ayarlar */
+	text-align: center; /* Buton metnini ortalar */
+  }
+  
+  .form-button:hover {
+	background-color: #0056b3;
+  }
+  
+  
+  
